@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.MyListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testCases.CreateNewProject_SCN02">
+        <methods>
+          <include name="set_up"/>
+          <include name="verify_status_code"/>
+          <include name="verfy_header_connection"/>
+          <include name="verify_created_project_name"/>
+          <include name="verfy_header_content_type"/>
+          <include name="setup"/>
+          <include name="tear_dwon"/>
+        </methods>
+      </class> <!-- testCases.CreateNewProject_SCN02 -->
+      <class name="testCases.CreateNewTask_SCN03">
+        <methods>
+          <include name="verify_created_task_name"/>
+          <include name="set_up"/>
+          <include name="verfy_header_connection"/>
+          <include name="verfy_header_content_type"/>
+          <include name="tear_dwon"/>
+          <include name="verify_project_id_for_task"/>
+          <include name="setup"/>
+          <include name="verify_status_code"/>
+        </methods>
+      </class> <!-- testCases.CreateNewTask_SCN03 -->
+      <class name="testCases.UpdateTaskContent_SCN04">
+        <methods>
+          <include name="set_up"/>
+          <include name="verify_status_code"/>
+          <include name="tear_down"/>
+          <include name="verfy_header_content_type"/>
+          <include name="setup"/>
+          <include name="verfy_header_connection"/>
+        </methods>
+      </class> <!-- testCases.UpdateTaskContent_SCN04 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

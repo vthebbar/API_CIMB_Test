@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num attn">12</td><td class="num">25,175</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">testCases.CreateNewProject_SCN02</td><td><a href="#m0">verfy_header_connection</a></td><td rowspan="1">1666193780346</td><td rowspan="1">20</td></tr><tr class="failedeven"><td><a href="#m1">verfy_header_content_type</a></td><td rowspan="1">1666193780399</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m2">verify_created_project_name</a></td><td rowspan="1">1666193780407</td><td rowspan="1">5</td></tr><tr class="failedeven"><td><a href="#m3">verify_status_code</a></td><td rowspan="1">1666193780416</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="5">testCases.CreateNewTask_SCN03</td><td><a href="#m4">verfy_header_connection</a></td><td rowspan="1">1666193780346</td><td rowspan="1">20</td></tr><tr class="failedodd"><td><a href="#m5">verfy_header_content_type</a></td><td rowspan="1">1666193780399</td><td rowspan="1">4</td></tr><tr class="failedodd"><td><a href="#m6">verify_created_task_name</a></td><td rowspan="1">1666193780409</td><td rowspan="1">4</td></tr><tr class="failedodd"><td><a href="#m7">verify_project_id_for_task</a></td><td rowspan="1">1666193780418</td><td rowspan="1">1</td></tr><tr class="failedodd"><td><a href="#m8">verify_status_code</a></td><td rowspan="1">1666193780423</td><td rowspan="1">2</td></tr><tr class="failedeven"><td rowspan="3">testCases.UpdateTaskContent_SCN04</td><td><a href="#m9">verfy_header_connection</a></td><td rowspan="1">1666193780346</td><td rowspan="1">20</td></tr><tr class="failedeven"><td><a href="#m10">verfy_header_content_type</a></td><td rowspan="1">1666193780399</td><td rowspan="1">3</td></tr><tr class="failedeven"><td><a href="#m11">verify_status_code</a></td><td rowspan="1">1666193780406</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCases.CreateNewProject_SCN02</td><td><a href="#m12">createNewProject_Verify_response_not_null</a></td><td rowspan="4">1666193793485</td><td rowspan="4">5897</td></tr><tr class="passedeven"><td><a href="#m13">createNewProject_Verify_response_not_null</a></td></tr><tr class="passedeven"><td><a href="#m14">createNewProject_Verify_response_not_null</a></td></tr><tr class="passedeven"><td><a href="#m15">createNewProject_Verify_response_not_null</a></td></tr><tr class="passedodd"><td rowspan="4">testCases.CreateNewTask_SCN03</td><td><a href="#m16">createNewTask_verify_response_not_null</a></td><td rowspan="4">1666193787446</td><td rowspan="4">6084</td></tr><tr class="passedodd"><td><a href="#m17">createNewTask_verify_response_not_null</a></td></tr><tr class="passedodd"><td><a href="#m18">createNewTask_verify_response_not_null</a></td></tr><tr class="passedodd"><td><a href="#m19">createNewTask_verify_response_not_null</a></td></tr><tr class="passedeven"><td rowspan="5">testCases.GetProjects_SCN01</td><td><a href="#m20">check_header_content_type</a></td><td rowspan="1">1666193788247</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m21">check_response_body</a></td><td rowspan="1">1666193788252</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m22">check_response_time</a></td><td rowspan="1">1666193788275</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m23">check_status_code</a></td><td rowspan="1">1666193788279</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m24">check_status_line</a></td><td rowspan="1">1666193788280</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="4">testCases.UpdateTaskContent_SCN04</td><td><a href="#m25">updateTaskContent_verify_response_not_null</a></td><td rowspan="4">1666193780462</td><td rowspan="4">6980</td></tr><tr class="passedodd"><td><a href="#m26">updateTaskContent_verify_response_not_null</a></td></tr><tr class="passedodd"><td><a href="#m27">updateTaskContent_verify_response_not_null</a></td></tr><tr class="passedodd"><td><a href="#m28">updateTaskContent_verify_response_not_null</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.CreateNewProject_SCN02#verfy_header_connection</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.CreateNewProject_SCN02.response&quot; is null
+	at testCases.CreateNewProject_SCN02.verfy_header_connection(CreateNewProject_SCN02.java:87)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.CreateNewProject_SCN02#verfy_header_content_type</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.CreateNewProject_SCN02.response&quot; is null
+	at testCases.CreateNewProject_SCN02.verfy_header_content_type(CreateNewProject_SCN02.java:94)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.CreateNewProject_SCN02#verify_created_project_name</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.jsonPath()&quot; because &quot;testCases.CreateNewProject_SCN02.response&quot; is null
+	at testCases.CreateNewProject_SCN02.verify_created_project_name(CreateNewProject_SCN02.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.CreateNewProject_SCN02#verify_status_code</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getStatusCode()&quot; because &quot;testCases.CreateNewProject_SCN02.response&quot; is null
+	at testCases.CreateNewProject_SCN02.verify_status_code(CreateNewProject_SCN02.java:69)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.CreateNewTask_SCN03#verfy_header_connection</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.CreateNewTask_SCN03.response&quot; is null
+	at testCases.CreateNewTask_SCN03.verfy_header_connection(CreateNewTask_SCN03.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.CreateNewTask_SCN03#verfy_header_content_type</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.CreateNewTask_SCN03.response&quot; is null
+	at testCases.CreateNewTask_SCN03.verfy_header_content_type(CreateNewTask_SCN03.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.CreateNewTask_SCN03#verify_created_task_name</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.jsonPath()&quot; because &quot;testCases.CreateNewTask_SCN03.response&quot; is null
+	at testCases.CreateNewTask_SCN03.verify_created_task_name(CreateNewTask_SCN03.java:82)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.CreateNewTask_SCN03#verify_project_id_for_task</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.jsonPath()&quot; because &quot;testCases.CreateNewTask_SCN03.response&quot; is null
+	at testCases.CreateNewTask_SCN03.verify_project_id_for_task(CreateNewTask_SCN03.java:88)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.CreateNewTask_SCN03#verify_status_code</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getStatusCode()&quot; because &quot;testCases.CreateNewTask_SCN03.response&quot; is null
+	at testCases.CreateNewTask_SCN03.verify_status_code(CreateNewTask_SCN03.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.UpdateTaskContent_SCN04#verfy_header_connection</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.UpdateTaskContent_SCN04.response&quot; is null
+	at testCases.UpdateTaskContent_SCN04.verfy_header_connection(UpdateTaskContent_SCN04.java:80)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.UpdateTaskContent_SCN04#verfy_header_content_type</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.header(String)&quot; because &quot;testCases.UpdateTaskContent_SCN04.response&quot; is null
+	at testCases.UpdateTaskContent_SCN04.verfy_header_content_type(UpdateTaskContent_SCN04.java:87)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.UpdateTaskContent_SCN04#verify_status_code</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.getStatusCode()&quot; because &quot;testCases.UpdateTaskContent_SCN04.response&quot; is null
+	at testCases.UpdateTaskContent_SCN04.verify_status_code(UpdateTaskContent_SCN04.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.CreateNewProject_SCN02#createNewProject_Verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{=, name=projectname3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.CreateNewProject_SCN02#createNewProject_Verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{=, name=projectname4}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.CreateNewProject_SCN02#createNewProject_Verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{=, name=projectname2}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.CreateNewProject_SCN02#createNewProject_Verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{=, name=projectname1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.CreateNewTask_SCN03#createNewTask_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703951, content=NewTask2}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testCases.CreateNewTask_SCN03#createNewTask_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703952, content=NewTask3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testCases.CreateNewTask_SCN03#createNewTask_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703953, content=NewTask4}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testCases.CreateNewTask_SCN03#createNewTask_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703950, content=NewTask1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">testCases.GetProjects_SCN01#check_header_content_type</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">testCases.GetProjects_SCN01#check_response_body</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">testCases.GetProjects_SCN01#check_response_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">testCases.GetProjects_SCN01#check_status_code</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">testCases.GetProjects_SCN01#check_status_line</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">testCases.UpdateTaskContent_SCN04#updateTaskContent_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703950, due_string=tomorrow}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">testCases.UpdateTaskContent_SCN04#updateTaskContent_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703953, due_string=Nextmonth}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">testCases.UpdateTaskContent_SCN04#updateTaskContent_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703951, due_string=DayAfterTomo}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">testCases.UpdateTaskContent_SCN04#updateTaskContent_verify_response_not_null</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{project_id=2300703952, due_string=NextWeek}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+testCases\CreateNewProject_SCN02.class
+testCases\GetProjects_SCN01.class
+testCases\CreateNewTask_SCN03.class
+testCases\UpdateTaskContent_SCN04.class

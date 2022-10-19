@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="17" failed="12" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-19T23:36:19 MYT" name="Suite" finished-at="2022-10-19T23:36:44 MYT" duration-ms="25175">
+    <groups>
+    </groups>
+    <test started-at="2022-10-19T23:36:19 MYT" name="Test" finished-at="2022-10-19T23:36:44 MYT" duration-ms="25175">
+      <class name="testCases.CreateNewTask_SCN03">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:19 MYT" name="set_up" finished-at="2022-10-19T23:36:20 MYT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="setup" finished-at="2022-10-19T23:36:20 MYT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_connection" finished-at="2022-10-19T23:36:20 MYT" duration-ms="20" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewTask_SCN03.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewTask_SCN03.response" is null
+at testCases.CreateNewTask_SCN03.verfy_header_connection(CreateNewTask_SCN03.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_connection -->
+        <test-method signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_content_type" finished-at="2022-10-19T23:36:20 MYT" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewTask_SCN03.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewTask_SCN03.response" is null
+at testCases.CreateNewTask_SCN03.verfy_header_content_type(CreateNewTask_SCN03.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_content_type -->
+        <test-method signature="verify_created_task_name()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="verify_created_task_name" finished-at="2022-10-19T23:36:20 MYT" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewTask_SCN03.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewTask_SCN03.response" is null
+at testCases.CreateNewTask_SCN03.verify_created_task_name(CreateNewTask_SCN03.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_created_task_name -->
+        <test-method signature="verify_project_id_for_task()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="verify_project_id_for_task" finished-at="2022-10-19T23:36:20 MYT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewTask_SCN03.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewTask_SCN03.response" is null
+at testCases.CreateNewTask_SCN03.verify_project_id_for_task(CreateNewTask_SCN03.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_project_id_for_task -->
+        <test-method signature="verify_status_code()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="verify_status_code" finished-at="2022-10-19T23:36:20 MYT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.CreateNewTask_SCN03.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.CreateNewTask_SCN03.response" is null
+at testCases.CreateNewTask_SCN03.verify_status_code(CreateNewTask_SCN03.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_status_code -->
+        <test-method signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:20 MYT" name="createNewTask_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:27 MYT" duration-ms="6981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703950, content=NewTask1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask_verify_response_not_null -->
+        <test-method signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:27 MYT" name="createNewTask_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:33 MYT" duration-ms="6084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703951, content=NewTask2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask_verify_response_not_null -->
+        <test-method signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:33 MYT" name="createNewTask_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:38 MYT" duration-ms="5367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703952, content=NewTask3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask_verify_response_not_null -->
+        <test-method signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:38 MYT" name="createNewTask_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:43 MYT" duration-ms="5092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703953, content=NewTask4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask_verify_response_not_null -->
+        <test-method is-config="true" signature="tear_dwon()[pri:0, instance:testCases.CreateNewTask_SCN03@72a85671]" started-at="2022-10-19T23:36:43 MYT" name="tear_dwon" finished-at="2022-10-19T23:36:43 MYT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_dwon -->
+      </class> <!-- testCases.CreateNewTask_SCN03 -->
+      <class name="testCases.GetProjects_SCN01">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:19 MYT" name="set_up" finished-at="2022-10-19T23:36:20 MYT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method is-config="true" signature="get_project_details()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:20 MYT" name="get_project_details" finished-at="2022-10-19T23:36:28 MYT" duration-ms="7920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_project_details -->
+        <test-method signature="check_header_content_type()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="check_header_content_type" finished-at="2022-10-19T23:36:28 MYT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_header_content_type -->
+        <test-method signature="check_response_body()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="check_response_body" finished-at="2022-10-19T23:36:28 MYT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_response_body -->
+        <test-method signature="check_response_time()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="check_response_time" finished-at="2022-10-19T23:36:28 MYT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_response_time -->
+        <test-method signature="check_status_code()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="check_status_code" finished-at="2022-10-19T23:36:28 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_status_code -->
+        <test-method signature="check_status_line()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="check_status_line" finished-at="2022-10-19T23:36:28 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_status_line -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:testCases.GetProjects_SCN01@6722db6e]" started-at="2022-10-19T23:36:28 MYT" name="tear_down" finished-at="2022-10-19T23:36:28 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- testCases.GetProjects_SCN01 -->
+      <class name="testCases.CreateNewProject_SCN02">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:19 MYT" name="set_up" finished-at="2022-10-19T23:36:20 MYT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="setup" finished-at="2022-10-19T23:36:20 MYT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_connection" finished-at="2022-10-19T23:36:20 MYT" duration-ms="20" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewProject_SCN02.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewProject_SCN02.response" is null
+at testCases.CreateNewProject_SCN02.verfy_header_connection(CreateNewProject_SCN02.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_connection -->
+        <test-method signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_content_type" finished-at="2022-10-19T23:36:20 MYT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewProject_SCN02.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.CreateNewProject_SCN02.response" is null
+at testCases.CreateNewProject_SCN02.verfy_header_content_type(CreateNewProject_SCN02.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_content_type -->
+        <test-method signature="verify_created_project_name()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="verify_created_project_name" finished-at="2022-10-19T23:36:20 MYT" duration-ms="5" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewProject_SCN02.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.jsonPath()" because "testCases.CreateNewProject_SCN02.response" is null
+at testCases.CreateNewProject_SCN02.verify_created_project_name(CreateNewProject_SCN02.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_created_project_name -->
+        <test-method signature="verify_status_code()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="verify_status_code" finished-at="2022-10-19T23:36:20 MYT" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.CreateNewProject_SCN02.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.CreateNewProject_SCN02.response" is null
+at testCases.CreateNewProject_SCN02.verify_status_code(CreateNewProject_SCN02.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_status_code -->
+        <test-method signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:20 MYT" name="createNewProject_Verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:27 MYT" duration-ms="6977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, name=projectname1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProject_Verify_response_not_null -->
+        <test-method signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:27 MYT" name="createNewProject_Verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:33 MYT" duration-ms="6034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, name=projectname2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProject_Verify_response_not_null -->
+        <test-method signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:33 MYT" name="createNewProject_Verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:39 MYT" duration-ms="5897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, name=projectname3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProject_Verify_response_not_null -->
+        <test-method signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:39 MYT" name="createNewProject_Verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:44 MYT" duration-ms="5390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, name=projectname4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProject_Verify_response_not_null -->
+        <test-method is-config="true" signature="tear_dwon()[pri:0, instance:testCases.CreateNewProject_SCN02@24fb6a80]" started-at="2022-10-19T23:36:44 MYT" name="tear_dwon" finished-at="2022-10-19T23:36:44 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_dwon -->
+      </class> <!-- testCases.CreateNewProject_SCN02 -->
+      <class name="testCases.UpdateTaskContent_SCN04">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:19 MYT" name="set_up" finished-at="2022-10-19T23:36:20 MYT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:20 MYT" name="setup" finished-at="2022-10-19T23:36:20 MYT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfy_header_connection()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_connection" finished-at="2022-10-19T23:36:20 MYT" duration-ms="20" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.UpdateTaskContent_SCN04.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.UpdateTaskContent_SCN04.response" is null
+at testCases.UpdateTaskContent_SCN04.verfy_header_connection(UpdateTaskContent_SCN04.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_connection -->
+        <test-method signature="verfy_header_content_type()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:20 MYT" name="verfy_header_content_type" finished-at="2022-10-19T23:36:20 MYT" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.UpdateTaskContent_SCN04.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.header(String)" because "testCases.UpdateTaskContent_SCN04.response" is null
+at testCases.UpdateTaskContent_SCN04.verfy_header_content_type(UpdateTaskContent_SCN04.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_header_content_type -->
+        <test-method signature="verify_status_code()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:20 MYT" name="verify_status_code" finished-at="2022-10-19T23:36:20 MYT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.UpdateTaskContent_SCN04.response" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "testCases.UpdateTaskContent_SCN04.response" is null
+at testCases.UpdateTaskContent_SCN04.verify_status_code(UpdateTaskContent_SCN04.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_status_code -->
+        <test-method signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:20 MYT" name="updateTaskContent_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:27 MYT" duration-ms="6980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703950, due_string=tomorrow}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskContent_verify_response_not_null -->
+        <test-method signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:27 MYT" name="updateTaskContent_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:34 MYT" duration-ms="7342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703951, due_string=DayAfterTomo}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskContent_verify_response_not_null -->
+        <test-method signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:34 MYT" name="updateTaskContent_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:39 MYT" duration-ms="4914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703952, due_string=NextWeek}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskContent_verify_response_not_null -->
+        <test-method signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:39 MYT" name="updateTaskContent_verify_response_not_null" data-provider="projectData" finished-at="2022-10-19T23:36:44 MYT" duration-ms="4873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{project_id=2300703953, due_string=Nextmonth}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTaskContent_verify_response_not_null -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:testCases.UpdateTaskContent_SCN04@48c35007]" started-at="2022-10-19T23:36:44 MYT" name="tear_down" finished-at="2022-10-19T23:36:44 MYT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- testCases.UpdateTaskContent_SCN04 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

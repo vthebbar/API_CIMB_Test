@@ -1,0 +1,438 @@
+2022-10-19 17:44:11,095  INFO [main] todoistAPI:24 - *** started getting project details***
+ 2022-10-19 17:44:12,107 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://api.todoist.com:443
+ 2022-10-19 17:44:12,186 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to api.todoist.com:443
+ 2022-10-19 17:44:12,585 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+ 2022-10-19 17:44:12,587 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+ 2022-10-19 17:44:12,587 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+ 2022-10-19 17:44:12,588 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+ 2022-10-19 17:44:12,589 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:44:12,590 DEBUG [main] wire:73 -  >> "GET /rest/v1/projects HTTP/1.1[\r][\n]"
+ 2022-10-19 17:44:12,591 DEBUG [main] wire:73 -  >> "Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817[\r][\n]"
+ 2022-10-19 17:44:12,591 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+ 2022-10-19 17:44:12,592 DEBUG [main] wire:73 -  >> "Host: api.todoist.com[\r][\n]"
+ 2022-10-19 17:44:12,592 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+ 2022-10-19 17:44:12,592 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)[\r][\n]"
+ 2022-10-19 17:44:12,593 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 2022-10-19 17:44:12,593 DEBUG [main] wire:73 -  >> "[\r][\n]"
+ 2022-10-19 17:44:12,593 DEBUG [main] headers:278 - >> GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:44:12,594 DEBUG [main] headers:281 - >> Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817
+ 2022-10-19 17:44:12,594 DEBUG [main] headers:281 - >> Accept: */*
+ 2022-10-19 17:44:12,594 DEBUG [main] headers:281 - >> Host: api.todoist.com
+ 2022-10-19 17:44:12,595 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+ 2022-10-19 17:44:12,595 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)
+ 2022-10-19 17:44:12,595 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+ 2022-10-19 17:44:13,867 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+ 2022-10-19 17:44:13,872 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+ 2022-10-19 17:44:13,873 DEBUG [main] wire:73 -  << "Content-Length: 887[\r][\n]"
+ 2022-10-19 17:44:13,873 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+ 2022-10-19 17:44:13,873 DEBUG [main] wire:73 -  << "Date: Wed, 19 Oct 2022 09:44:15 GMT[\r][\n]"
+ 2022-10-19 17:44:13,873 DEBUG [main] wire:73 -  << "Access-Control-Allow-Credentials: false[\r][\n]"
+ 2022-10-19 17:44:13,874 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 2022-10-19 17:44:13,874 DEBUG [main] wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+ 2022-10-19 17:44:13,874 DEBUG [main] wire:73 -  << "Set-Cookie: csrf=7c02faeeda244153b0c1496284ab1281; Expires=Sat, 16-Oct-2032 09:44:15 GMT; Secure; Path=/; SameSite=None[\r][\n]"
+ 2022-10-19 17:44:13,875 DEBUG [main] wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+ 2022-10-19 17:44:13,875 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+ 2022-10-19 17:44:13,876 DEBUG [main] wire:73 -  << "Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"[\r][\n]"
+ 2022-10-19 17:44:13,877 DEBUG [main] wire:73 -  << "X-Cache: Miss from cloudfront[\r][\n]"
+ 2022-10-19 17:44:13,877 DEBUG [main] wire:73 -  << "Via: 1.1 41c7833f08a871a6acf0abbcc930ab1e.cloudfront.net (CloudFront)[\r][\n]"
+ 2022-10-19 17:44:13,877 DEBUG [main] wire:73 -  << "X-Amz-Cf-Pop: KUL50-C1[\r][\n]"
+ 2022-10-19 17:44:13,878 DEBUG [main] wire:73 -  << "X-Amz-Cf-Id: _fzfoKTmKdpy1PDYieGP-VCrMVXzlLazl0k4HPal6Q49EerXWtiCDQ==[\r][\n]"
+ 2022-10-19 17:44:13,878 DEBUG [main] wire:73 -  << "[\r][\n]"
+ 2022-10-19 17:44:13,879 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+ 2022-10-19 17:44:13,880 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+ 2022-10-19 17:44:13,881 DEBUG [main] headers:265 - << Content-Type: application/json
+ 2022-10-19 17:44:13,881 DEBUG [main] headers:265 - << Content-Length: 887
+ 2022-10-19 17:44:13,882 DEBUG [main] headers:265 - << Connection: keep-alive
+ 2022-10-19 17:44:13,882 DEBUG [main] headers:265 - << Date: Wed, 19 Oct 2022 09:44:15 GMT
+ 2022-10-19 17:44:13,882 DEBUG [main] headers:265 - << Access-Control-Allow-Credentials: false
+ 2022-10-19 17:44:13,883 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+ 2022-10-19 17:44:13,884 DEBUG [main] headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+ 2022-10-19 17:44:13,885 DEBUG [main] headers:265 - << Set-Cookie: csrf=7c02faeeda244153b0c1496284ab1281; Expires=Sat, 16-Oct-2032 09:44:15 GMT; Secure; Path=/; SameSite=None
+ 2022-10-19 17:44:13,886 DEBUG [main] headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+ 2022-10-19 17:44:13,886 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+ 2022-10-19 17:44:13,887 DEBUG [main] headers:265 - << Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"
+ 2022-10-19 17:44:13,887 DEBUG [main] headers:265 - << X-Cache: Miss from cloudfront
+ 2022-10-19 17:44:13,887 DEBUG [main] headers:265 - << Via: 1.1 41c7833f08a871a6acf0abbcc930ab1e.cloudfront.net (CloudFront)
+ 2022-10-19 17:44:13,888 DEBUG [main] headers:265 - << X-Amz-Cf-Pop: KUL50-C1
+ 2022-10-19 17:44:13,889 DEBUG [main] headers:265 - << X-Amz-Cf-Id: _fzfoKTmKdpy1PDYieGP-VCrMVXzlLazl0k4HPal6Q49EerXWtiCDQ==
+ 2022-10-19 17:44:13,895 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+ 2022-10-19 17:44:13,903 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+ 2022-10-19 17:44:13,903 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 2022-10-19 17:44:13,985 DEBUG [main] wire:73 -  << "[[\n]"
+ 2022-10-19 17:44:13,986 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:13,987 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2230146330,[\n]"
+ 2022-10-19 17:44:13,988 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 48,[\n]"
+ 2022-10-19 17:44:13,988 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Inbox",[\n]"
+ 2022-10-19 17:44:13,988 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:13,989 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:13,989 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:13,989 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:13,990 DEBUG [main] wire:73 -  << "[0x9][0x9]"inbox_project": true,[\n]"
+ 2022-10-19 17:44:13,990 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2230146330"[\n]"
+ 2022-10-19 17:44:13,990 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:13,991 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:13,992 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2262192555,[\n]"
+ 2022-10-19 17:44:13,992 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 5,[\n]"
+ 2022-10-19 17:44:13,993 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:44:13,993 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test1",[\n]"
+ 2022-10-19 17:44:13,994 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:13,994 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:13,994 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:13,995 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:13,995 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2262192555"[\n]"
+ 2022-10-19 17:44:13,995 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:13,996 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:13,996 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2295143401,[\n]"
+ 2022-10-19 17:44:13,996 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 11,[\n]"
+ 2022-10-19 17:44:13,997 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:44:13,997 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test2",[\n]"
+ 2022-10-19 17:44:13,998 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:13,998 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:13,998 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:13,999 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:13,999 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2295143401"[\n]"
+ 2022-10-19 17:44:13,999 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:13,999 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:14,000 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2300703950,[\n]"
+ 2022-10-19 17:44:14,000 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 12,[\n]"
+ 2022-10-19 17:44:14,000 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 43,[\n]"
+ 2022-10-19 17:44:14,000 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharanappa Test Project",[\n]"
+ 2022-10-19 17:44:14,000 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:14,001 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:14,001 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": true,[\n]"
+ 2022-10-19 17:44:14,001 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:14,001 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2300703950"[\n]"
+ 2022-10-19 17:44:14,001 DEBUG [main] wire:73 -  << "[0x9]}[\n]"
+ 2022-10-19 17:44:14,002 DEBUG [main] wire:73 -  << "][\n]"
+ 2022-10-19 17:44:14,003 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4364712f
+ 2022-10-19 17:44:14,003 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+ 2022-10-19 17:44:45,666  INFO [main] todoistAPI:24 - *** started getting project details***
+ 2022-10-19 17:44:46,603 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://api.todoist.com:443
+ 2022-10-19 17:44:46,612 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to api.todoist.com:443
+ 2022-10-19 17:44:46,963 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+ 2022-10-19 17:44:46,965 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+ 2022-10-19 17:44:46,965 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+ 2022-10-19 17:44:46,966 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+ 2022-10-19 17:44:46,966 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:44:46,966 DEBUG [main] wire:73 -  >> "GET /rest/v1/projects HTTP/1.1[\r][\n]"
+ 2022-10-19 17:44:46,967 DEBUG [main] wire:73 -  >> "Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817[\r][\n]"
+ 2022-10-19 17:44:46,968 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+ 2022-10-19 17:44:46,968 DEBUG [main] wire:73 -  >> "Host: api.todoist.com[\r][\n]"
+ 2022-10-19 17:44:46,968 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+ 2022-10-19 17:44:46,968 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)[\r][\n]"
+ 2022-10-19 17:44:46,969 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 2022-10-19 17:44:46,969 DEBUG [main] wire:73 -  >> "[\r][\n]"
+ 2022-10-19 17:44:46,969 DEBUG [main] headers:278 - >> GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:44:46,969 DEBUG [main] headers:281 - >> Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817
+ 2022-10-19 17:44:46,970 DEBUG [main] headers:281 - >> Accept: */*
+ 2022-10-19 17:44:46,970 DEBUG [main] headers:281 - >> Host: api.todoist.com
+ 2022-10-19 17:44:46,970 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+ 2022-10-19 17:44:46,970 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)
+ 2022-10-19 17:44:46,971 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+ 2022-10-19 17:44:47,420 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+ 2022-10-19 17:44:47,425 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+ 2022-10-19 17:44:47,426 DEBUG [main] wire:73 -  << "Content-Length: 887[\r][\n]"
+ 2022-10-19 17:44:47,426 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+ 2022-10-19 17:44:47,426 DEBUG [main] wire:73 -  << "Date: Wed, 19 Oct 2022 09:44:49 GMT[\r][\n]"
+ 2022-10-19 17:44:47,427 DEBUG [main] wire:73 -  << "Access-Control-Allow-Credentials: false[\r][\n]"
+ 2022-10-19 17:44:47,427 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 2022-10-19 17:44:47,427 DEBUG [main] wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+ 2022-10-19 17:44:47,427 DEBUG [main] wire:73 -  << "Set-Cookie: csrf=32056b9790204cb6a77d2deca4b2cc4b; Expires=Sat, 16-Oct-2032 09:44:48 GMT; Secure; Path=/; SameSite=None[\r][\n]"
+ 2022-10-19 17:44:47,428 DEBUG [main] wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+ 2022-10-19 17:44:47,428 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+ 2022-10-19 17:44:47,428 DEBUG [main] wire:73 -  << "Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"[\r][\n]"
+ 2022-10-19 17:44:47,429 DEBUG [main] wire:73 -  << "X-Cache: Miss from cloudfront[\r][\n]"
+ 2022-10-19 17:44:47,430 DEBUG [main] wire:73 -  << "Via: 1.1 acb6ba809a3df0f2d67cfe85b2c4cc18.cloudfront.net (CloudFront)[\r][\n]"
+ 2022-10-19 17:44:47,432 DEBUG [main] wire:73 -  << "X-Amz-Cf-Pop: KUL50-C1[\r][\n]"
+ 2022-10-19 17:44:47,433 DEBUG [main] wire:73 -  << "X-Amz-Cf-Id: NviJvzN2QD_ju7jqpeZem4aGj1TqnK6GUkd0HXJgzRDaewFlKEq-Vw==[\r][\n]"
+ 2022-10-19 17:44:47,434 DEBUG [main] wire:73 -  << "[\r][\n]"
+ 2022-10-19 17:44:47,435 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+ 2022-10-19 17:44:47,435 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+ 2022-10-19 17:44:47,435 DEBUG [main] headers:265 - << Content-Type: application/json
+ 2022-10-19 17:44:47,436 DEBUG [main] headers:265 - << Content-Length: 887
+ 2022-10-19 17:44:47,437 DEBUG [main] headers:265 - << Connection: keep-alive
+ 2022-10-19 17:44:47,437 DEBUG [main] headers:265 - << Date: Wed, 19 Oct 2022 09:44:49 GMT
+ 2022-10-19 17:44:47,437 DEBUG [main] headers:265 - << Access-Control-Allow-Credentials: false
+ 2022-10-19 17:44:47,438 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+ 2022-10-19 17:44:47,438 DEBUG [main] headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+ 2022-10-19 17:44:47,439 DEBUG [main] headers:265 - << Set-Cookie: csrf=32056b9790204cb6a77d2deca4b2cc4b; Expires=Sat, 16-Oct-2032 09:44:48 GMT; Secure; Path=/; SameSite=None
+ 2022-10-19 17:44:47,440 DEBUG [main] headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+ 2022-10-19 17:44:47,440 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+ 2022-10-19 17:44:47,441 DEBUG [main] headers:265 - << Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"
+ 2022-10-19 17:44:47,441 DEBUG [main] headers:265 - << X-Cache: Miss from cloudfront
+ 2022-10-19 17:44:47,442 DEBUG [main] headers:265 - << Via: 1.1 acb6ba809a3df0f2d67cfe85b2c4cc18.cloudfront.net (CloudFront)
+ 2022-10-19 17:44:47,442 DEBUG [main] headers:265 - << X-Amz-Cf-Pop: KUL50-C1
+ 2022-10-19 17:44:47,443 DEBUG [main] headers:265 - << X-Amz-Cf-Id: NviJvzN2QD_ju7jqpeZem4aGj1TqnK6GUkd0HXJgzRDaewFlKEq-Vw==
+ 2022-10-19 17:44:47,448 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+ 2022-10-19 17:44:47,457 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+ 2022-10-19 17:44:47,458 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 2022-10-19 17:44:47,555 DEBUG [main] wire:73 -  << "[[\n]"
+ 2022-10-19 17:44:47,555 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:47,556 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2230146330,[\n]"
+ 2022-10-19 17:44:47,556 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 48,[\n]"
+ 2022-10-19 17:44:47,557 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Inbox",[\n]"
+ 2022-10-19 17:44:47,557 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:47,558 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:47,558 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:47,558 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:47,558 DEBUG [main] wire:73 -  << "[0x9][0x9]"inbox_project": true,[\n]"
+ 2022-10-19 17:44:47,558 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2230146330"[\n]"
+ 2022-10-19 17:44:47,559 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:47,559 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:47,559 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2262192555,[\n]"
+ 2022-10-19 17:44:47,559 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 5,[\n]"
+ 2022-10-19 17:44:47,559 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:44:47,560 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test1",[\n]"
+ 2022-10-19 17:44:47,560 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:47,560 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:47,561 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:47,561 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:47,561 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2262192555"[\n]"
+ 2022-10-19 17:44:47,562 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:47,562 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:47,562 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2295143401,[\n]"
+ 2022-10-19 17:44:47,562 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 11,[\n]"
+ 2022-10-19 17:44:47,563 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:44:47,563 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test2",[\n]"
+ 2022-10-19 17:44:47,563 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:47,563 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:47,563 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2295143401"[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2300703950,[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 12,[\n]"
+ 2022-10-19 17:44:47,564 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 43,[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharanappa Test Project",[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": true,[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:44:47,565 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2300703950"[\n]"
+ 2022-10-19 17:44:47,566 DEBUG [main] wire:73 -  << "[0x9]}[\n]"
+ 2022-10-19 17:44:47,566 DEBUG [main] wire:73 -  << "][\n]"
+ 2022-10-19 17:44:47,567 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@429f7919
+ 2022-10-19 17:44:47,568 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+ 2022-10-19 17:52:42,672  INFO [main] todoistAPI:24 - *** started getting project details***
+ 2022-10-19 17:52:43,680 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://api.todoist.com:443
+ 2022-10-19 17:52:43,737 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to api.todoist.com:443
+ 2022-10-19 17:52:44,069 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+ 2022-10-19 17:52:44,071 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+ 2022-10-19 17:52:44,071 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+ 2022-10-19 17:52:44,072 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+ 2022-10-19 17:52:44,072 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:52:44,073 DEBUG [main] wire:73 -  >> "GET /rest/v1/projects HTTP/1.1[\r][\n]"
+ 2022-10-19 17:52:44,074 DEBUG [main] wire:73 -  >> "Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817[\r][\n]"
+ 2022-10-19 17:52:44,074 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+ 2022-10-19 17:52:44,075 DEBUG [main] wire:73 -  >> "Host: api.todoist.com[\r][\n]"
+ 2022-10-19 17:52:44,075 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+ 2022-10-19 17:52:44,075 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)[\r][\n]"
+ 2022-10-19 17:52:44,075 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 2022-10-19 17:52:44,076 DEBUG [main] wire:73 -  >> "[\r][\n]"
+ 2022-10-19 17:52:44,076 DEBUG [main] headers:278 - >> GET /rest/v1/projects HTTP/1.1
+ 2022-10-19 17:52:44,076 DEBUG [main] headers:281 - >> Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817
+ 2022-10-19 17:52:44,076 DEBUG [main] headers:281 - >> Accept: */*
+ 2022-10-19 17:52:44,077 DEBUG [main] headers:281 - >> Host: api.todoist.com
+ 2022-10-19 17:52:44,077 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+ 2022-10-19 17:52:44,077 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1)
+ 2022-10-19 17:52:44,077 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+ 2022-10-19 17:52:44,999 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+ 2022-10-19 17:52:45,004 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+ 2022-10-19 17:52:45,005 DEBUG [main] wire:73 -  << "Content-Length: 887[\r][\n]"
+ 2022-10-19 17:52:45,005 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+ 2022-10-19 17:52:45,005 DEBUG [main] wire:73 -  << "Date: Wed, 19 Oct 2022 09:52:46 GMT[\r][\n]"
+ 2022-10-19 17:52:45,005 DEBUG [main] wire:73 -  << "Access-Control-Allow-Credentials: false[\r][\n]"
+ 2022-10-19 17:52:45,006 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 2022-10-19 17:52:45,006 DEBUG [main] wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+ 2022-10-19 17:52:45,006 DEBUG [main] wire:73 -  << "Set-Cookie: csrf=02230f0e5d4d4246845fe8a34823eada; Expires=Sat, 16-Oct-2032 09:52:46 GMT; Secure; Path=/; SameSite=None[\r][\n]"
+ 2022-10-19 17:52:45,007 DEBUG [main] wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+ 2022-10-19 17:52:45,007 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+ 2022-10-19 17:52:45,007 DEBUG [main] wire:73 -  << "Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"[\r][\n]"
+ 2022-10-19 17:52:45,007 DEBUG [main] wire:73 -  << "X-Cache: Miss from cloudfront[\r][\n]"
+ 2022-10-19 17:52:45,008 DEBUG [main] wire:73 -  << "Via: 1.1 9fe5b0bf2176871ab93eaec7aa2c211a.cloudfront.net (CloudFront)[\r][\n]"
+ 2022-10-19 17:52:45,008 DEBUG [main] wire:73 -  << "X-Amz-Cf-Pop: KUL50-C1[\r][\n]"
+ 2022-10-19 17:52:45,009 DEBUG [main] wire:73 -  << "X-Amz-Cf-Id: NgS8vbC-C0Tsbm-vLdErkVnTnbSLkxQVWa3V5Du8H57C2BjIu-ltpg==[\r][\n]"
+ 2022-10-19 17:52:45,011 DEBUG [main] wire:73 -  << "[\r][\n]"
+ 2022-10-19 17:52:45,012 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+ 2022-10-19 17:52:45,013 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+ 2022-10-19 17:52:45,013 DEBUG [main] headers:265 - << Content-Type: application/json
+ 2022-10-19 17:52:45,013 DEBUG [main] headers:265 - << Content-Length: 887
+ 2022-10-19 17:52:45,014 DEBUG [main] headers:265 - << Connection: keep-alive
+ 2022-10-19 17:52:45,014 DEBUG [main] headers:265 - << Date: Wed, 19 Oct 2022 09:52:46 GMT
+ 2022-10-19 17:52:45,014 DEBUG [main] headers:265 - << Access-Control-Allow-Credentials: false
+ 2022-10-19 17:52:45,014 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+ 2022-10-19 17:52:45,015 DEBUG [main] headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+ 2022-10-19 17:52:45,015 DEBUG [main] headers:265 - << Set-Cookie: csrf=02230f0e5d4d4246845fe8a34823eada; Expires=Sat, 16-Oct-2032 09:52:46 GMT; Secure; Path=/; SameSite=None
+ 2022-10-19 17:52:45,015 DEBUG [main] headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+ 2022-10-19 17:52:45,017 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+ 2022-10-19 17:52:45,018 DEBUG [main] headers:265 - << Warning: 119 - "Deprecated API version. Will be removed on 2022-11-30"
+ 2022-10-19 17:52:45,018 DEBUG [main] headers:265 - << X-Cache: Miss from cloudfront
+ 2022-10-19 17:52:45,019 DEBUG [main] headers:265 - << Via: 1.1 9fe5b0bf2176871ab93eaec7aa2c211a.cloudfront.net (CloudFront)
+ 2022-10-19 17:52:45,019 DEBUG [main] headers:265 - << X-Amz-Cf-Pop: KUL50-C1
+ 2022-10-19 17:52:45,020 DEBUG [main] headers:265 - << X-Amz-Cf-Id: NgS8vbC-C0Tsbm-vLdErkVnTnbSLkxQVWa3V5Du8H57C2BjIu-ltpg==
+ 2022-10-19 17:52:45,025 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+ 2022-10-19 17:52:45,035 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json
+ 2022-10-19 17:52:45,036 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 2022-10-19 17:52:45,132 DEBUG [main] wire:73 -  << "[[\n]"
+ 2022-10-19 17:52:45,133 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:52:45,133 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2230146330,[\n]"
+ 2022-10-19 17:52:45,133 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 48,[\n]"
+ 2022-10-19 17:52:45,134 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Inbox",[\n]"
+ 2022-10-19 17:52:45,134 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:52:45,134 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:52:45,135 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:52:45,135 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:52:45,136 DEBUG [main] wire:73 -  << "[0x9][0x9]"inbox_project": true,[\n]"
+ 2022-10-19 17:52:45,136 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2230146330"[\n]"
+ 2022-10-19 17:52:45,136 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:52:45,137 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:52:45,137 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2262192555,[\n]"
+ 2022-10-19 17:52:45,137 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 5,[\n]"
+ 2022-10-19 17:52:45,138 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:52:45,138 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test1",[\n]"
+ 2022-10-19 17:52:45,138 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:52:45,138 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:52:45,138 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:52:45,139 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:52:45,139 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2262192555"[\n]"
+ 2022-10-19 17:52:45,140 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:52:45,140 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:52:45,140 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2295143401,[\n]"
+ 2022-10-19 17:52:45,140 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 11,[\n]"
+ 2022-10-19 17:52:45,141 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 47,[\n]"
+ 2022-10-19 17:52:45,141 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharan Test2",[\n]"
+ 2022-10-19 17:52:45,142 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:52:45,142 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:52:45,143 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": false,[\n]"
+ 2022-10-19 17:52:45,143 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:52:45,143 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2295143401"[\n]"
+ 2022-10-19 17:52:45,143 DEBUG [main] wire:73 -  << "[0x9]},[\n]"
+ 2022-10-19 17:52:45,144 DEBUG [main] wire:73 -  << "[0x9]{[\n]"
+ 2022-10-19 17:52:45,144 DEBUG [main] wire:73 -  << "[0x9][0x9]"id": 2300703950,[\n]"
+ 2022-10-19 17:52:45,144 DEBUG [main] wire:73 -  << "[0x9][0x9]"order": 12,[\n]"
+ 2022-10-19 17:52:45,144 DEBUG [main] wire:73 -  << "[0x9][0x9]"color": 43,[\n]"
+ 2022-10-19 17:52:45,144 DEBUG [main] wire:73 -  << "[0x9][0x9]"name": "Sharanappa Test Project",[\n]"
+ 2022-10-19 17:52:45,145 DEBUG [main] wire:73 -  << "[0x9][0x9]"comment_count": 0,[\n]"
+ 2022-10-19 17:52:45,145 DEBUG [main] wire:73 -  << "[0x9][0x9]"shared": false,[\n]"
+ 2022-10-19 17:52:45,146 DEBUG [main] wire:73 -  << "[0x9][0x9]"favorite": true,[\n]"
+ 2022-10-19 17:52:45,146 DEBUG [main] wire:73 -  << "[0x9][0x9]"sync_id": 0,[\n]"
+ 2022-10-19 17:52:45,146 DEBUG [main] wire:73 -  << "[0x9][0x9]"url": "https://todoist.com/showProject?id=2300703950"[\n]"
+ 2022-10-19 17:52:45,146 DEBUG [main] wire:73 -  << "[0x9]}[\n]"
+ 2022-10-19 17:52:45,147 DEBUG [main] wire:73 -  << "][\n]"
+ 2022-10-19 17:52:45,148 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59bbe88a
+ 2022-10-19 17:52:45,149 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+ 2022-10-19 18:20:08,526  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 18:20:08,529  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 18:20:10,695  INFO [main] todoistAPI:73 - *** SCN01 completed *******
+ 2022-10-19 18:20:51,947  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 18:20:51,950  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 18:20:54,498  INFO [main] todoistAPI:73 - *** SCN01 completed *******
+ 2022-10-19 18:21:29,770  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 18:21:29,773  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 18:21:32,248  INFO [main] todoistAPI:73 - *** SCN01 completed *******
+ 2022-10-19 21:56:26,683  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 21:56:26,704  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 21:56:32,834  INFO [main] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 22:00:49,479  INFO [main] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:00:56,823  INFO [main] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:01:02,871  INFO [main] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:01:08,697  INFO [main] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:01:14,621  INFO [main] todoistAPI:104 - *** SCN03 Completed *******
+ 2022-10-19 22:01:14,627  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 22:01:14,628  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 22:01:21,689  INFO [main] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 22:01:21,708  INFO [main] todoistAPI:31 - *** SCN02 started *******
+ 2022-10-19 22:01:27,949  INFO [main] todoistAPI:31 - *** SCN02 started *******
+ 2022-10-19 22:01:34,437  INFO [main] todoistAPI:31 - *** SCN02 started *******
+ 2022-10-19 22:01:40,710  INFO [main] todoistAPI:31 - *** SCN02 started *******
+ 2022-10-19 22:01:46,920  INFO [main] todoistAPI:96 - *** SCN02 Completed *******
+ 2022-10-19 22:01:46,933  INFO [main] todoistAPI:30 - *** SCN04 Started *******
+ 2022-10-19 22:01:53,216  INFO [main] todoistAPI:30 - *** SCN04 Started *******
+ 2022-10-19 22:02:00,353  INFO [main] todoistAPI:30 - *** SCN04 Started *******
+ 2022-10-19 22:02:06,270  INFO [main] todoistAPI:30 - *** SCN04 Started *******
+ 2022-10-19 22:02:13,151  INFO [main] todoistAPI:86 - *** SCN04 Completed *******
+ 2022-10-19 22:03:46,871  INFO [main] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:04:14,112  INFO [main] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-19 22:04:14,116  INFO [main] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 22:04:14,117  INFO [main] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 22:04:20,429  INFO [main] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 22:04:20,438  INFO [main] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 22:04:45,900  INFO [main] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-19 22:04:45,908  INFO [main] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 22:05:13,942  INFO [main] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-19 22:17:01,630  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 22:17:01,635  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 22:17:01,630  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 22:17:01,630  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:17:01,630  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 22:17:08,227  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 22:17:23,039  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-19 22:17:24,932  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-19 22:17:25,351  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-19 22:38:11,782  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 22:38:11,782  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 22:38:11,782  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:38:11,782  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 22:38:11,786  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 22:56:13,372  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 22:56:13,372  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 22:56:13,372  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 22:56:13,372  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 22:56:13,376  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:01:30,526  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 23:01:30,526  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 23:01:30,526  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 23:01:30,526  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 23:01:30,531  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:14:57,842  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 23:14:57,842  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 23:14:57,842  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 23:14:57,842  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 23:14:57,845  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:34:03,216  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 23:34:03,219  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:34:03,216  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 23:34:03,216  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 23:34:03,216  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 23:34:09,970  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 23:34:24,407  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-19 23:34:26,073  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-19 23:34:26,227  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-19 23:36:20,326  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 23:36:20,326  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 23:36:20,326  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 23:36:20,330  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:36:20,326  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 23:36:28,282  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 23:36:43,996  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-19 23:36:44,588  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-19 23:36:44,776  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-19 23:55:51,289  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-19 23:55:51,290  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-19 23:55:51,290  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-19 23:55:51,290  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-19 23:55:51,301  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-19 23:55:58,177  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-19 23:56:13,159  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-19 23:56:14,247  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-19 23:56:14,277  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-20 00:34:55,451  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-20 00:34:55,451  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-20 00:34:55,451  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-20 00:34:55,479  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-20 00:34:55,451  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-20 00:35:02,882  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-20 00:35:17,100  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-20 00:35:17,907  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-20 00:35:17,922  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-20 00:46:08,452  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-20 00:46:08,452  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-20 00:46:08,452  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-20 00:46:08,452  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-20 00:46:08,455  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-20 00:46:15,967  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-20 00:46:31,192  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-20 00:46:31,208  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-20 00:46:32,478  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 
