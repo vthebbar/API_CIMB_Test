@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 27.672 s <<< FAILURE! - in TestSuite
-verfy_header_connection(testCases.UpdateTaskContent_SCN04)  Time elapsed: 0.022 s  <<< FAILURE!
+Tests run: 29, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 26.746 s <<< FAILURE! - in TestSuite
+verfy_header_connection(testCases.UpdateTaskContent_SCN04)  Time elapsed: 0.021 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.UpdateTaskContent_SCN04.verfy_header_connection(UpdateTaskContent_SCN04.java:80)
 
-verfy_header_connection(testCases.CreateNewTask_SCN03)  Time elapsed: 0.023 s  <<< FAILURE!
-java.lang.NullPointerException
-	at testCases.CreateNewTask_SCN03.verfy_header_connection(CreateNewTask_SCN03.java:95)
-
-verfy_header_connection(testCases.CreateNewProject_SCN02)  Time elapsed: 0.023 s  <<< FAILURE!
+verfy_header_connection(testCases.CreateNewProject_SCN02)  Time elapsed: 0.022 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.CreateNewProject_SCN02.verfy_header_connection(CreateNewProject_SCN02.java:87)
 
-verfy_header_content_type(testCases.CreateNewProject_SCN02)  Time elapsed: 0 s  <<< FAILURE!
+verfy_header_connection(testCases.CreateNewTask_SCN03)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testCases.CreateNewTask_SCN03.verfy_header_connection(CreateNewTask_SCN03.java:95)
+
+verfy_header_content_type(testCases.CreateNewProject_SCN02)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.CreateNewProject_SCN02.verfy_header_content_type(CreateNewProject_SCN02.java:94)
 
@@ -26,27 +26,27 @@ verfy_header_content_type(testCases.UpdateTaskContent_SCN04)  Time elapsed: 0.00
 java.lang.NullPointerException
 	at testCases.UpdateTaskContent_SCN04.verfy_header_content_type(UpdateTaskContent_SCN04.java:87)
 
-verify_status_code(testCases.UpdateTaskContent_SCN04)  Time elapsed: 0.003 s  <<< FAILURE!
+verify_created_project_name(testCases.CreateNewProject_SCN02)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.NullPointerException
-	at testCases.UpdateTaskContent_SCN04.verify_status_code(UpdateTaskContent_SCN04.java:68)
+	at testCases.CreateNewProject_SCN02.verify_created_project_name(CreateNewProject_SCN02.java:81)
 
-verify_created_task_name(testCases.CreateNewTask_SCN03)  Time elapsed: 0.003 s  <<< FAILURE!
+verify_created_task_name(testCases.CreateNewTask_SCN03)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.CreateNewTask_SCN03.verify_created_task_name(CreateNewTask_SCN03.java:82)
 
-verify_created_project_name(testCases.CreateNewProject_SCN02)  Time elapsed: 0.005 s  <<< FAILURE!
+verify_project_id_for_task(testCases.CreateNewTask_SCN03)  Time elapsed: 0 s  <<< FAILURE!
 java.lang.NullPointerException
-	at testCases.CreateNewProject_SCN02.verify_created_project_name(CreateNewProject_SCN02.java:81)
+	at testCases.CreateNewTask_SCN03.verify_project_id_for_task(CreateNewTask_SCN03.java:88)
+
+verify_status_code(testCases.UpdateTaskContent_SCN04)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at testCases.UpdateTaskContent_SCN04.verify_status_code(UpdateTaskContent_SCN04.java:68)
 
 verify_status_code(testCases.CreateNewProject_SCN02)  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.CreateNewProject_SCN02.verify_status_code(CreateNewProject_SCN02.java:69)
 
-verify_project_id_for_task(testCases.CreateNewTask_SCN03)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-	at testCases.CreateNewTask_SCN03.verify_project_id_for_task(CreateNewTask_SCN03.java:88)
-
-verify_status_code(testCases.CreateNewTask_SCN03)  Time elapsed: 0.002 s  <<< FAILURE!
+verify_status_code(testCases.CreateNewTask_SCN03)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.NullPointerException
 	at testCases.CreateNewTask_SCN03.verify_status_code(CreateNewTask_SCN03.java:70)
 

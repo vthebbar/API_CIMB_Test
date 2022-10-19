@@ -435,4 +435,13 @@
  2022-10-20 00:46:31,192  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
  2022-10-20 00:46:31,208  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
  2022-10-20 00:46:32,478  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
+ 2022-10-20 00:54:11,524  INFO [TestNG-test=Test-2] todoistAPI:31 - *** SCN02 Started *******
+ 2022-10-20 00:54:11,524  INFO [TestNG-test=Test-4] todoistAPI:30 - *** SCN03 Started *******
+ 2022-10-20 00:54:11,524  INFO [TestNG-test=Test-3] todoistAPI:31 - *** SCN04 Started *******
+ 2022-10-20 00:54:11,524  INFO [TestNG-test=Test-1] todoistAPI:23 - *** SCN01 started *******
+ 2022-10-20 00:54:11,527  INFO [TestNG-test=Test-1] todoistAPI:25 - *** started getting project details***
+ 2022-10-20 00:54:18,764  INFO [TestNG-test=Test-1] todoistAPI:75 - *** SCN01 completed *******
+ 2022-10-20 00:54:33,734  INFO [TestNG-test=Test-3] todoistAPI:93 - *** SCN04 Completed *******
+ 2022-10-20 00:54:34,080  INFO [TestNG-test=Test-4] todoistAPI:110 - *** SCN03 Completed *******
+ 2022-10-20 00:54:34,709  INFO [TestNG-test=Test-2] todoistAPI:102 - *** SCN02 Completed *******
  

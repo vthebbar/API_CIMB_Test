@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="12" ignored="0" total="29" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24989" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:32 SGT">
+  <suite name="Suite" duration-ms="24153" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:34 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24989" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:32 SGT">
+    <test name="Test" duration-ms="24153" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:34 SGT">
       <class name="testCases.CreateNewTask_SCN03">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="set_up" is-config="true" duration-ms="575" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="set_up" is-config="true" duration-ms="593" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="setup" is-config="true" duration-ms="3" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="setup" is-config="true" duration-ms="4" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verfy_header_connection" duration-ms="11" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verfy_header_connection" duration-ms="9" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -41,7 +41,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_connection -->
-        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verfy_header_content_type" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verfy_header_content_type" duration-ms="1" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -67,7 +67,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_content_type -->
-        <test-method status="FAIL" signature="verify_created_task_name()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_created_task_name" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_created_task_name()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_created_task_name" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -93,7 +93,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_created_task_name -->
-        <test-method status="FAIL" signature="verify_project_id_for_task()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_project_id_for_task" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_project_id_for_task()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_project_id_for_task" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -119,7 +119,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_project_id_for_task -->
-        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_status_code" duration-ms="1" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="verify_status_code" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -145,7 +145,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_status_code -->
-        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="7402" started-at="2022-10-20T00:46:08 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="7606" started-at="2022-10-20T00:54:11 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:19 SGT">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewTask_verify_response_not_null -->
-        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="4971" started-at="2022-10-20T00:46:15 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:20 SGT">
+        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="4894" started-at="2022-10-20T00:54:19 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:24 SGT">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewTask_verify_response_not_null -->
-        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="5214" started-at="2022-10-20T00:46:20 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:26 SGT">
+        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="5081" started-at="2022-10-20T00:54:24 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:29 SGT">
           <params>
             <param index="0">
               <value>
@@ -178,7 +178,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewTask_verify_response_not_null -->
-        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="5087" started-at="2022-10-20T00:46:26 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:31 SGT">
+        <test-method status="PASS" signature="createNewTask_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="createNewTask_verify_response_not_null" duration-ms="4895" started-at="2022-10-20T00:54:29 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:34 SGT">
           <params>
             <param index="0">
               <value>
@@ -189,55 +189,55 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewTask_verify_response_not_null -->
-        <test-method status="PASS" signature="tear_dwon()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="tear_dwon" is-config="true" duration-ms="1" started-at="2022-10-20T00:46:31 SGT" finished-at="2022-10-20T00:46:31 SGT">
+        <test-method status="PASS" signature="tear_dwon()[pri:0, instance:testCases.CreateNewTask_SCN03@2cf3d63b]" name="tear_dwon" is-config="true" duration-ms="1" started-at="2022-10-20T00:54:34 SGT" finished-at="2022-10-20T00:54:34 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_dwon -->
       </class> <!-- testCases.CreateNewTask_SCN03 -->
       <class name="testCases.GetProjects_SCN01">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="set_up" is-config="true" duration-ms="575" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="set_up" is-config="true" duration-ms="593" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="get_project_details()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="get_project_details" is-config="true" duration-ms="7478" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="get_project_details()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="get_project_details" is-config="true" duration-ms="7223" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_project_details -->
-        <test-method status="PASS" signature="check_header_content_type()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_header_content_type" duration-ms="3" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="check_header_content_type()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_header_content_type" duration-ms="3" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_header_content_type -->
-        <test-method status="PASS" signature="check_response_body()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_response_body" duration-ms="22" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="check_response_body()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_response_body" duration-ms="10" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_response_body -->
-        <test-method status="PASS" signature="check_response_time()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_response_time" duration-ms="2" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="check_response_time()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_response_time" duration-ms="1" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_response_time -->
-        <test-method status="PASS" signature="check_status_code()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_status_code" duration-ms="1" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="check_status_code()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_status_code" duration-ms="1" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_status_code -->
-        <test-method status="PASS" signature="check_status_line()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_status_line" duration-ms="0" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="check_status_line()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="check_status_line" duration-ms="0" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_status_line -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="tear_down" is-config="true" duration-ms="1" started-at="2022-10-20T00:46:15 SGT" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.GetProjects_SCN01@7674f035]" name="tear_down" is-config="true" duration-ms="1" started-at="2022-10-20T00:54:18 SGT" finished-at="2022-10-20T00:54:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
       </class> <!-- testCases.GetProjects_SCN01 -->
       <class name="testCases.CreateNewProject_SCN02">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="set_up" is-config="true" duration-ms="575" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="set_up" is-config="true" duration-ms="593" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="setup" is-config="true" duration-ms="3" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="setup" is-config="true" duration-ms="3" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verfy_header_connection" duration-ms="11" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verfy_header_connection" duration-ms="9" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -263,7 +263,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_connection -->
-        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verfy_header_content_type" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verfy_header_content_type" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -289,7 +289,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_content_type -->
-        <test-method status="FAIL" signature="verify_created_project_name()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verify_created_project_name" duration-ms="1" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_created_project_name()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verify_created_project_name" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -315,7 +315,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_created_project_name -->
-        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verify_status_code" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="verify_status_code" duration-ms="1" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -341,7 +341,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_status_code -->
-        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="7933" started-at="2022-10-20T00:46:08 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:16 SGT">
+        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="7606" started-at="2022-10-20T00:54:11 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:19 SGT">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewProject_Verify_response_not_null -->
-        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="5889" started-at="2022-10-20T00:46:16 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:22 SGT">
+        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="5908" started-at="2022-10-20T00:54:19 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:25 SGT">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewProject_Verify_response_not_null -->
-        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="4990" started-at="2022-10-20T00:46:22 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:27 SGT">
+        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="4984" started-at="2022-10-20T00:54:25 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:30 SGT">
           <params>
             <param index="0">
               <value>
@@ -374,7 +374,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewProject_Verify_response_not_null -->
-        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="5133" started-at="2022-10-20T00:46:27 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:32 SGT">
+        <test-method status="PASS" signature="createNewProject_Verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="createNewProject_Verify_response_not_null" duration-ms="4607" started-at="2022-10-20T00:54:30 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:34 SGT">
           <params>
             <param index="0">
               <value>
@@ -385,21 +385,21 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewProject_Verify_response_not_null -->
-        <test-method status="PASS" signature="tear_dwon()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="tear_dwon" is-config="true" duration-ms="1" started-at="2022-10-20T00:46:32 SGT" finished-at="2022-10-20T00:46:32 SGT">
+        <test-method status="PASS" signature="tear_dwon()[pri:0, instance:testCases.CreateNewProject_SCN02@8f2ef19]" name="tear_dwon" is-config="true" duration-ms="1" started-at="2022-10-20T00:54:34 SGT" finished-at="2022-10-20T00:54:34 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_dwon -->
       </class> <!-- testCases.CreateNewProject_SCN02 -->
       <class name="testCases.UpdateTaskContent_SCN04">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="set_up" is-config="true" duration-ms="575" started-at="2022-10-20T00:46:07 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="set_up" is-config="true" duration-ms="593" started-at="2022-10-20T00:54:10 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="setup" is-config="true" duration-ms="4" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="setup" is-config="true" duration-ms="4" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verfy_header_connection" duration-ms="11" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_connection()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verfy_header_connection" duration-ms="9" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -425,7 +425,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_connection -->
-        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verfy_header_content_type" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verfy_header_content_type()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verfy_header_content_type" duration-ms="1" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -451,7 +451,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfy_header_content_type -->
-        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verify_status_code" duration-ms="0" started-at="2022-10-20T00:46:08 SGT" finished-at="2022-10-20T00:46:08 SGT">
+        <test-method status="FAIL" signature="verify_status_code()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="verify_status_code" duration-ms="0" started-at="2022-10-20T00:54:11 SGT" finished-at="2022-10-20T00:54:11 SGT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -477,7 +477,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_status_code -->
-        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="7402" started-at="2022-10-20T00:46:08 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:15 SGT">
+        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="7906" started-at="2022-10-20T00:54:11 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:19 SGT">
           <params>
             <param index="0">
               <value>
@@ -488,7 +488,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTaskContent_verify_response_not_null -->
-        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="4939" started-at="2022-10-20T00:46:15 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:20 SGT">
+        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="4894" started-at="2022-10-20T00:54:19 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:24 SGT">
           <params>
             <param index="0">
               <value>
@@ -499,7 +499,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTaskContent_verify_response_not_null -->
-        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="5198" started-at="2022-10-20T00:46:20 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:26 SGT">
+        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="4894" started-at="2022-10-20T00:54:24 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:29 SGT">
           <params>
             <param index="0">
               <value>
@@ -510,7 +510,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTaskContent_verify_response_not_null -->
-        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="5119" started-at="2022-10-20T00:46:26 SGT" data-provider="projectData" finished-at="2022-10-20T00:46:31 SGT">
+        <test-method status="PASS" signature="updateTaskContent_verify_response_not_null(java.lang.Object)[pri:1, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="updateTaskContent_verify_response_not_null" duration-ms="4438" started-at="2022-10-20T00:54:29 SGT" data-provider="projectData" finished-at="2022-10-20T00:54:33 SGT">
           <params>
             <param index="0">
               <value>
@@ -521,7 +521,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTaskContent_verify_response_not_null -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="tear_down" is-config="true" duration-ms="1" started-at="2022-10-20T00:46:31 SGT" finished-at="2022-10-20T00:46:31 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.UpdateTaskContent_SCN04@470734c3]" name="tear_down" is-config="true" duration-ms="1" started-at="2022-10-20T00:54:33 SGT" finished-at="2022-10-20T00:54:33 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
